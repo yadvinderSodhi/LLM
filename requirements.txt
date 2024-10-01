@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+langchain
+streamlit
+requests
+torch
+torchvision
+torchaudio
+tensorflow
