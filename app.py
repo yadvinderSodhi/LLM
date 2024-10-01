@@ -31,7 +31,7 @@ async def process_params2(params: Params):
     return JSONResponse(content={"message": f"logs:\n{logs}"})
 
 # Langchain tool to search logs
-def search_tool(query):
+def search_toogit l(query):
     logs = search_logs_by_id([log_file1, log_file2], query)
     return logs if logs else ["No records found."]
 
